@@ -1,0 +1,65 @@
+.contact_page{
+  max-width: 600px;
+ 
+  padding:50px;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: rgb(99, 96, 96);
+  background: #e5e5e5;
+  border-radius: 8px;
+}
+
+
+.mail{
+ 
+  margin-top: 30px;
+  margin-left: 50px;
+  line-height: 20px;
+  font-size: 20px;
+}
+.mail p{
+ font-size: 24px;
+ margin-top: 20px;
+}
+.micon{
+  display: block;
+  font-size: 50px;
+}
+@media (max-width: 430px){
+  .mail{
+      padding: 0;
+      margin-left: 0;
+  }
+  .contact_page{
+      margin: 12px;
+      padding: 30px;
+ width: auto;
+  }
+  .mail p{
+      font-size: 6vw;
+      margin-top: 20px;
+   }
+
+}
+@media (max-width: 537px){
+ 
+  .contact_page{
+     margin: 1.2rem;
+  }
+}
+
+.linked-in{
+  background-color: rgb(29, 128, 240);
+  display: inline-block;
+  padding: 6px 12px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.gmail{
+  background-color: rgba(236, 54, 54, 0.78);
+  display: inline-block;
+  padding: 12px 12px;
+  color: #fff;
+  border-radius: 5px;
+}

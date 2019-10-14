@@ -1,0 +1,73 @@
+.skills_page {
+  /* animation: slide-in-right 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; */
+  margin: 30px 20px 10px;
+  overflow-x: hidden;
+}
+.skills_page h1,
+h2 {
+  color: #808080;
+}
+.skills_page h2 {
+  margin-top: 46px;
+}
+.web_mobile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.card {
+  background: #eee;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+@media (max-width: 460px) {
+  .card {
+      padding: 30px;
+  }
+}
+@media (min-width: 641px) {
+  .skills_page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 20px 20px;
+  }
+  .tech {
+      justify-content: flex-start;
+  }
+}
+
+.web {
+  background: rgba(243, 182, 89, 0.699);
+  color: rgb(200, 73, 26);
+}
+.mobile {
+  background: rgba(0, 255, 0, 0.2);
+  background: lightgreen;
+}
+
+.tech {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.tech p {
+  padding: 6px 12px;
+  background: #eee;
+  margin: 10px;
+}
+.mb-2rem{
+  margin-bottom: 6rem;
+}

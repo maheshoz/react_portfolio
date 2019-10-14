@@ -1,0 +1,67 @@
+
+*,
+*:after,
+*:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background: #f7f5f5;
+  font-display: fallback;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* animations */
+.slide-in-right {
+  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-right {
+  0% {
+      transform: translateX(200px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+.scale-in {
+  animation: scale-in 1s linear;
+}
+@keyframes scale-in {
+  0% {
+      opacity: 0;
+      transform: translateY(15px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}
+
+.scale-up {
+  animation: scale-up .2s linear;
+}
+@keyframes scale-up {
+  0% {
+      opacity: 0;
+      transform: translateY(1px);
+  }
+  100% {
+      opacity: 1;  
+      transform: translateY(0);   
+  }
+}

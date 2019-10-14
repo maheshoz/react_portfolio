@@ -1,0 +1,29 @@
+.about_page{
+  overflow-x: hidden;
+}
+.about_page h1 {
+  color: rgb(146, 140, 140);
+  font-size: 2rem;
+}
+.about_page h3 {
+  color: rgb(105, 101, 101);
+  margin: 16px 0;
+}
+.about_page {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 160px;
+}
+.about_page p {
+  line-height: 1.6;
+  color: rgb(148, 151, 151);
+  margin-top: 18px;
+  font-size: 19px;
+}
+@media (max-width:768) {
+  .about_page p {
+      font-size: 16px;
+  }
+}
