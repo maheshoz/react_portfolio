@@ -17,9 +17,11 @@ class Contact extends Component {
       <h1>Contact me through:</h1>
       <div className="mail">
 
-        <p >my email : <br/> <br/> <span className="gmail">maheshcn31@gmail.com</span>  </p>
+        <p >email : <br/> <br/> <span className="gmail" >maheshcn31@gmail.com</span>  </p>
        
-            Or Goto <Link to='https://www.linkedin.com/in/mahesh-k-192194191/'> <p className="linked-in"> Linked In</p></Link>
+            Or Connect on <Link to='https://www.linkedin.com/in/mahesh-k-192194191/'> <p className="linked-in"> Linked In</p></Link>
+            <br/>
+            
       </div>
     </div>
         <MobileNav/>
